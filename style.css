@@ -1,0 +1,71 @@
+/* .item {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 20px;
+
+}
+.item:hover {
+    background-color: red;
+    
+} */
+body {
+    background-color: rgb(107, 105, 105);
+}
+
+.cat>#head {
+    background-image: url(img/cat.png)
+   
+}
+
+hr{
+    position:relative;
+    display:block;
+    width:200%;
+    height:5px;
+    background:#000;
+    margin:140px 0 0 -50%;
+    border:none;
+    transform:rotate(13.5deg);
+}
+
+#container div {
+    position: absolute;
+    display: inline-block;
+    top:0;
+    height: 70%;
+    width: 80%;
+    background-repeat: no-repeat;
+}
+
+.cat>#paw-left {
+    background-image: url(img/paw-left.png);
+}
+
+.cat>#paw-right {
+    background-image: url(img/paw-right.png);
+}
+
+#paw-right:hover {
+    transform: translate(-250px);
+}
+.cat>#mouth{
+    background-image:url(img/mouth.png);
+   
+}
+
+.cat>#head{
+    background-image:url(img/cat.png);
+}
+
+.instruments>#keyboard,#layer-keyboard{
+    background-image:url(img/keyboard.png)
+}
+.cat div{
+    background-position-y:0;background-position-x:550px
+}
+#keyboard {
+    position: absolute;
+    align-items:baseline;
+
+}
